@@ -1,0 +1,8 @@
+version: '3'
+services:
+  retail-pulse:
+    build: .
+    ports:
+      - "7000:7000"
+    volumes:
+      - ./StoreMasterAssignment.csv:/app/StoreMasterAssignment.csv
