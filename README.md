@@ -54,7 +54,7 @@ go test ./...
 The service will start on port 7000 by default.
 
 ## Requirements:
-- Job Submission and Processing:
+=> Job Submission and Processing:
 
 ✅ Implements POST /api/submit endpoint
 ✅ Handles multiple jobs concurrently using worker pool
@@ -62,21 +62,21 @@ The service will start on port 7000 by default.
 ✅ Implements image download and perimeter calculation
 ✅ Includes random sleep time (0.1-0.4s) to simulate GPU processing
 
-- Store Master Integration:
+=> Store Master Integration:
 
 ✅ Loads store data from CSV
 ✅ Validates store IDs against master data
 ✅ Provides store lookup functionality
 
 
-- Job Status Tracking:
+=> Job Status Tracking:
 
 ✅ Implements GET /api/status endpoint
 ✅ Tracks job status (ongoing/completed/failed)
 ✅ Handles errors appropriately
 ✅ Returns proper error responses
 
-- Technical Requirements:
+=> Technical Requirements:
 
 ✅ Written in Go with Go Modules
 ✅ Uses Gin framework for routing
