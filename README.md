@@ -1,7 +1,7 @@
 # Retail Pulse Image Processing Service
 
 - Postman: https://documenter.getpostman.com/view/31555061/2sAYBPkDkn
-- Live: https://retail-pulse.onrender.com/api/submit
+- Live: https://retail-pulse.onrender.com/api/status?jobid=1731677266939497569
 
 ## Description
 The Retail Pulse Image Processing Service is a scalable Go application that allows users to submit jobs to process images collected from retail stores. The service downloads the images, calculates the perimeter of each image, and stores the results. It also handles errors and provides job status tracking
